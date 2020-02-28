@@ -1,0 +1,20 @@
+{
+  "name": "oleksandryarzhombek/magento2-ordergrid-columns",
+  "description": "A Magento 2 Order Grid Columns module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+  ],
+  "require": {
+    "php": "~7.2.0",
+    "magento/framework": "102.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Made\\VSFConfig\\": ""
+    }
+  }
+}

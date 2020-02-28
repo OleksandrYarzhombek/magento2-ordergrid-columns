@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    Oleksandr Yarzhombek <devias.corp@gmail.com>
+ * @created   28.02.20
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Plugins -->
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <plugin name="add_columns_to_order_grid"
+                type="Devias\OrderGrid\Plugin\AddColumnsToOrderGridPlugin"
+                sortOrder="10" />
+    </type>
+</config>

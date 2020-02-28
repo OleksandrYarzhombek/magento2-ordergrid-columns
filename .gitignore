@@ -1,0 +1,4 @@
+# Ignore phpshtorm files
+.idea
+.DS_Store
+*.swp
