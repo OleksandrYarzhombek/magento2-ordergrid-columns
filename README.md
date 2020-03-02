@@ -1,7 +1,7 @@
 # magento2-ordergrid-columns
 Added `coupon_code` and `discount_amount` columns to order grid in admin.
 
-###I see a few variants how to solve this issue:
+### I see a few variants how to solve this issue:
 * Add after plugin to `Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory` - as I have already done
 * Add 2 columns (`coupon_code` and `discount_amoun`) using `db_schema.xml` to `sales_order_grid` table, then use Magento `virtualType` for Resource model to join this fields from `sales_order` table.
 Something like that:
